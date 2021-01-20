@@ -1,0 +1,337 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+/*header style*/
+header {
+  width: 100%;
+  height: 360px;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cont {
+  width: 90%;
+  margin: auto;
+}
+header .cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+header div .logo {
+  margin-top: 30px;
+}
+header div .title {
+  text-align: center;
+  width: 45%;
+  margin-top: 30px;
+}
+
+header div .title p {
+  margin-top: 15px;
+}
+header div .button {
+  margin-top: 30px;
+}
+header div .button input {
+  height: 35px;
+  width: 175px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+header div .button #b1 {
+  background-color: #5dccbb;
+}
+header div .button #b2 {
+  background-color: #8896ff;
+}
+/*main style*/
+/*TV style*/
+
+main .TV_article .TV_text {
+  text-align: center;
+  margin: auto;
+  width: 49%;
+  margin-top: 50px;
+}
+main .TV_article .TV_text h2 {
+  font-size: 40px;
+}
+
+main .TV_article section {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+main .TV_article section .TV_list {
+  margin-left: 40px;
+}
+main .TV_article section .TV_list h4 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+main .TV_article section .TV_list p {
+  margin-bottom: 40px;
+  font-size: 20px;
+  color: gray;
+}
+/*devaice style*/
+main .devaice {
+  text-align: center;
+}
+main .devaice div h2 {
+  font-size: 40px;
+  margin-top: 30px;
+}
+main .devaice div p {
+  font-size: 20px;
+  color: gray;
+  width: 50%;
+  margin: auto;
+  margin-top: 10px;
+}
+main .devaice div img {
+  margin-top: 60px;
+}
+/*icon list style*/
+main .Icon_list {
+  text-align: center;
+}
+main .Icon_list .icon_title {
+  margin-top: 40px;
+}
+main .Icon_list .icon_title h2 {
+  font-size: 40px;
+}
+main .Icon_list .icon_title p {
+  margin-top: 15px;
+  font-size: 20px;
+  color: gray;
+}
+main .Icon_list section {
+  display: flex;
+  margin-top: 40px;
+}
+main .Icon_list section div {
+  width: 22%;
+  margin: auto;
+}
+
+/*ent logo*/
+/*end site */
+main .endSite {
+  text-align: center;
+}
+main .endSite h2 {
+  margin-top: 40px;
+  font-size: 40px;
+}
+main .endSite p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+main .endSite .button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+main .endSite .button input {
+  height: 35px;
+  width: 175px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+main .endSite .button #b1 {
+  background-color: #5dccbb;
+  margin-right: 10px;
+}
+main .endSite .button #b1:hover {
+  box-shadow: inset 0px 0px 10px black;
+}
+main .endSite .button #b2 {
+  background-color: #8896ff;
+}
+main .endSite .button #b2:hover {
+  box-shadow: inset 0px 0px 10px black;
+}
+/*footer style*/
+footer {
+  width: 100%;
+  height: 90px;
+  background-color: #f5f6f8;
+  margin-top: 100px;
+  overflow: hidden;
+}
+footer .cont {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .cont .logo img {
+  width: 60px;
+  margin-top: 20px;
+}
+footer .cont .a {
+  display: inline-flex;
+  flex-direction: column;
+
+  margin-top: 20px;
+}
+footer .cont .a a {
+  text-decoration: none;
+  color: gray;
+}
+main .entrList {
+  display: flex;
+
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .rs_icon {
+  margin-top: 20px;
+}
+/*media screen*/
+@media only screen and (max-width: 600px) {
+  header {
+    background-image: url(images/bg-header-mobile.png);
+    height: 480px;
+  }
+
+  header div .title {
+    width: 90%;
+  }
+
+  header div .title p {
+    color: gray;
+    font-size: 20px;
+  }
+  header div .button {
+    width: 90%;
+  }
+  header div .button input {
+    display: inherit;
+    margin: auto;
+    width: 90%;
+  }
+
+  header div .button #b2 {
+    margin-top: 12px;
+  }
+  /**/
+  main .TV_article {
+    margin-top: 10px;
+  }
+  main .TV_article .TV_text {
+    width: 90%;
+    margin-bottom: 50px;
+  }
+
+  main .TV_article section {
+    display: initial;
+  }
+  main .TV_article section .TV_image {
+    width: 100%;
+  }
+  main .TV_article section .TV_image img {
+    width: 90%;
+  }
+  main .TV_article section .TV_list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+  }
+
+  /*devaice style*/
+  /*devaice style*/
+
+  main .devaice div p {
+    width: 84%;
+  }
+  main .devaice div img {
+    width: 100%;
+  }
+  /*icon list style*/
+
+  main .Icon_list .icon_title {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  main .Icon_list section {
+    display: initial;
+  }
+  main .Icon_list section div {
+    width: 75%;
+  }
+
+  main .Icon_list section div h3 {
+    margin-top: 20px;
+  }
+  main .Icon_list section div p {
+    margin-top: 20px;
+  }
+  main .entrList {
+    display: flex;
+    flex-direction: column;
+  }
+  main .entrList img {
+    margin-top: 20px;
+  }
+
+  /*end site*/
+  main .endSite {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+  }
+
+  main .endSite .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .endSite .button #b1 {
+    margin-right: 0px;
+    width: 100%;
+  }
+
+  main .endSite .button #b2 {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  /*footer*/
+  footer {
+    height: auto;
+  }
+  footer .cont {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer .cont .a {
+    width: 60%;
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+}
